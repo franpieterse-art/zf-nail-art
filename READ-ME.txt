@@ -1,30 +1,7 @@
-ZF NAIL ART V11 — PRECISE COLOUR CHANGES
+ZF Nail Art V12 - Larger hand and closer nail preview
 
-UPDATE YOUR GITHUB + RENDER APP
-Extract the ZIP. In franpieterse-art/zf-nail-art click Add file > Upload files.
-Upload app.js, index.html and sw.js, replacing the existing three files.
-Commit changes. Wait for Render to deploy. Open https://zf-nail-art.onrender.com/
-and refresh with Ctrl+Shift+R. Close and reopen older installed app windows.
-All ten app files are included for a fresh upload if needed.
+Existing GitHub/Render installation: upload and replace index.html, app.js and sw.js in the repository root. Commit the changes. Wait for Render to finish deploying, then press Ctrl+Shift+R in the app.
 
-PRECISE WORKFLOW
-1. Select a design and click its Change 1st colour / 2nd colour button.
-2. For close shades, click Pick exact part. The editor displays the ORIGINAL.
-3. Click the precise area on that original nail.
-4. Blue preview shows the selected area only; the design is not painted blue.
-5. Pick one of the 40 replacement colours. The original shading is retained.
-6. Use Compare original to check against the source design.
+The upper hand is enlarged and the wrist is cropped out. Photo and nail overlays share the same crop, so designs remain aligned. Includes the V11 precise-colour controls and 40 colours.
 
-Only clicked area protects disconnected regions, even if they have the same
-colour. Select All matching areas if you intentionally want all matching parts.
-Exact colour range starts at 6: lower for a tighter match; increase gradually
-if you need more of a softly shaded area. Automatic photo grouping is an
-estimate; use exact selection to control nearby brown, beige or cream shades.
-Original design colours and Reset all pattern colours restore source artwork.
-
-Checks: exact masks, disconnected-area protection, unchanged outside pixels,
-light/shadow preservation, original reset and app initialisation passed.
-Browser and physical-phone visual testing was not available in this run.
-
-Render settings for a fresh deployment: Static Site; main; root blank;
-build echo Ready; Publish Directory . (one dot).
+This download does not automatically update your Render website.

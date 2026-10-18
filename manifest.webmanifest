@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "ZF Nail Art",
+  "short_name": "ZF Nails",
+  "description": "Design your manicure with 200 pattern combinations, colour controls and a realistic hand preview.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f2ef",
+  "theme_color": "#231e1c",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

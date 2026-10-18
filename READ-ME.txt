@@ -1,0 +1,32 @@
+ZF NAIL ART V9 — INDIVIDUAL COLOUR CHANGES
+
+UPDATE YOUR EXISTING GITHUB + RENDER APP
+1. Extract the ZIP.
+2. Open GitHub repository franpieterse-art/zf-nail-art.
+3. Click Add file > Upload files.
+4. Upload app.js, index.html and sw.js from the extracted folder.
+   These replace the three existing files with the same names.
+5. Click Commit changes. Render should deploy the new commit automatically.
+6. Open https://zf-nail-art.onrender.com/ and press Ctrl+Shift+R.
+
+All ten app files are included for a fresh installation if needed.
+Render: Static Site; branch main; Root Directory blank;
+Build Command echo Ready; Publish Directory . (one dot).
+
+HOW TO USE
+- Pick any design. Its main colours are detected from the image.
+- A Change 1st colour, Change 2nd colour, etc. button appears beside the editor.
+- Click the individual colour button, then any swatch or a custom colour.
+- Only that colour region is replaced. Other original colours are preserved.
+- You do not have to select every colour before the design changes.
+- Upload a nail photo to use the same controls on your own design.
+- Detect colours on this nail also works after you paint your own pattern.
+- Original design colours restores the original artwork.
+- Main-colour detection is an image estimate: polish shading, reflections and
+  photographic texture can affect the number of colour groups it finds.
+
+OFFLINE UPDATE
+A versioned service worker refreshes the app cache. If an older installed copy
+is open, close it and reopen after the Render deployment, or refresh the page.
+
+First Working Nail (V7) and the earlier V8 app remain separate saved baselines.

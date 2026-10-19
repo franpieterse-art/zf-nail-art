@@ -1,9 +1,9 @@
-ZF Nail Art V13 - Connected fill area fix
+ZF Nail Art V14 - Numbered design colours
 
-Replace index.html, app.js and sw.js in the GitHub repository root. Commit and wait for Render deployment. Refresh with Ctrl+Shift+R.
+Replace index.html, app.js and sw.js in your GitHub repository root, commit, wait for Render deployment, then refresh with Ctrl+Shift+R.
 
-For a previously patchy design click Original design colours first, or choose the original pattern again. Select Recolour, choose a polish colour, then click inside the area. Fill now follows shade changes within the connected colour area rather than matching only a narrow RGB range. Gold, silver and other distinct colour borders are protected. Adjust Fill area range for difficult photographs. Undo is available.
+Choose a design. Its detected colours are numbered on the editing nail and listed with matching swatches beside it. Click a numbered swatch to select the corresponding Change 1st/2nd/3rd colour control. Numbers stay consistent when replacements are selected. Numbers are interface labels; they are not painted onto the hand, saved artwork or exported PNG. Natural/custom-painted nails require Detect colours on this nail to create the numbered key.
 
-Includes V12 larger hand and 40 polish colours. Download does not automatically deploy to Render.
+Includes V13 fill fix and V12 larger hand. This ZIP does not automatically update your Render deployment.
 
-Validation: connected shaded region fill and separate colour preservation pixel checks passed, along with existing app and precision checks. Browser visual verification unavailable. Photo segmentation is approximate and may need range adjustment.
+App and fill regression checks passed. Visual browser verification unavailable.

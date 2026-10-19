@@ -1,7 +1,9 @@
-ZF Nail Art V12 - Larger hand and closer nail preview
+ZF Nail Art V13 - Connected fill area fix
 
-Existing GitHub/Render installation: upload and replace index.html, app.js and sw.js in the repository root. Commit the changes. Wait for Render to finish deploying, then press Ctrl+Shift+R in the app.
+Replace index.html, app.js and sw.js in the GitHub repository root. Commit and wait for Render deployment. Refresh with Ctrl+Shift+R.
 
-The upper hand is enlarged and the wrist is cropped out. Photo and nail overlays share the same crop, so designs remain aligned. Includes the V11 precise-colour controls and 40 colours.
+For a previously patchy design click Original design colours first, or choose the original pattern again. Select Recolour, choose a polish colour, then click inside the area. Fill now follows shade changes within the connected colour area rather than matching only a narrow RGB range. Gold, silver and other distinct colour borders are protected. Adjust Fill area range for difficult photographs. Undo is available.
 
-This download does not automatically update your Render website.
+Includes V12 larger hand and 40 polish colours. Download does not automatically deploy to Render.
+
+Validation: connected shaded region fill and separate colour preservation pixel checks passed, along with existing app and precision checks. Browser visual verification unavailable. Photo segmentation is approximate and may need range adjustment.

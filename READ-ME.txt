@@ -1,9 +1,7 @@
-ZF Nail Art V14 - Numbered design colours
+ZF Nail Art V15 - original V14 plus numbered colour blocks.
 
-Replace index.html, app.js and sw.js in your GitHub repository root, commit, wait for Render deployment, then refresh with Ctrl+Shift+R.
+Select a design, choose Block 1 (main colour) or another numbered block, then choose a replacement colour. Numbered markers appear on the editor nail only and do not appear in exported designs.
 
-Choose a design. Its detected colours are numbered on the editing nail and listed with matching swatches beside it. Click a numbered swatch to select the corresponding Change 1st/2nd/3rd colour control. Numbers stay consistent when replacements are selected. Numbers are interface labels; they are not painted onto the hand, saved artwork or exported PNG. Natural/custom-painted nails require Detect colours on this nail to create the numbered key.
+Original V14 images, patterns, hand, tools, and layout retained. Colour areas are detected from image pixels, so photographic highlights and very similar colours may not separate perfectly.
 
-Includes V13 fill fix and V12 larger hand. This ZIP does not automatically update your Render deployment.
-
-App and fill regression checks passed. Visual browser verification unavailable.
+Deploy all files together in the GitHub repository root and hard-refresh after deployment. This ZIP does not automatically deploy.

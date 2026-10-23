@@ -1,9 +1,11 @@
-ZF Nail Art V14 - Numbered design colours
+ZF Nail Art V17 - Colour match correction
 
-Replace index.html, app.js and sw.js in your GitHub repository root, commit, wait for Render deployment, then refresh with Ctrl+Shift+R.
+Existing GitHub/Render installation: replace app.js, index.html and sw.js at repository root. Commit, wait for Render deployment, then press Ctrl+Shift+R. Look for V17 next to Make it yours in the editor. If it is absent, the updated files have not loaded.
 
-Choose a design. Its detected colours are numbered on the editing nail and listed with matching swatches beside it. Click a numbered swatch to select the corresponding Change 1st/2nd/3rd colour control. Numbers stay consistent when replacements are selected. Numbers are interface labels; they are not painted onto the hand, saved artwork or exported PNG. Natural/custom-painted nails require Detect colours on this nail to create the numbered key.
+Choose the original design again, select a numbered block and then a colour. Colour transfer now uses the selected hue rather than retaining residual warm tint from the original artwork. Original brightness differences preserve shading. Gamut handling reduces saturation where necessary to avoid channel clipping changing the hue.
 
-Includes V13 fill fix and V12 larger hand. This ZIP does not automatically update your Render deployment.
+The photo design already has shading and gloss; extra warm overlay shading is removed from photographic hand previews and thumbnails, and the extra editor overlay is disabled. Colour is consistent across design block and hand. Added Edge/Shimmer decorations still apply when chosen. Includes V16 background exclusion and 45-colour palette.
 
-App and fill regression checks passed. Visual browser verification unavailable.
+Automatic photographic background separation and colour grouping remain approximate. Numbers can change after background exclusion. Re-select the original design to discard old edits.
+
+Validation: six selected shades tested across warm original shadows; replacement hue within 3 degrees. App, precision and reference background checks passed. Windows/browser visual validation unavailable. This download does not automatically deploy to Render.
